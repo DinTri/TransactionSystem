@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionSystemDDD", "TransactionSystemDDD\TransactionSystemDDD.csproj", "{811940D1-3318-4392-B532-F6F6D0BFDAC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionSystemCleanArchitecture", "TransactionSystemCleanArchitecture\TransactionSystemCleanArchitecture.csproj", "{74C0BA70-0800-4DFA-8B7B-B4AB4BCEE7C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionSystemVerticalSliceArchitecture_VSA", "TransactionSystemVerticalSliceArchitecture_VSA\TransactionSystemVerticalSliceArchitecture_VSA.csproj", "{5EEB5EE6-FB70-4FC8-B168-F2B9F05C22EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionSystemDDD_Test", "TransactionSystemDDD_Test\TransactionSystemDDD_Test.csproj", "{BA276FA2-6C8D-42E8-BEE4-375613D7BE99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionSystemCleanArchitecture_Test", "TransactionSystemCleanArchitecture_Test\TransactionSystemCleanArchitecture_Test.csproj", "{73672830-0BEA-42DD-BB55-DB4094DDA279}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionSystemVerticalSliceArchitecture_VSA_Test", "TransactionSystemVerticalSliceArchitecture_VSA_Test\TransactionSystemVerticalSliceArchitecture_VSA_Test.csproj", "{883C9DBA-5AA1-4AF5-A468-4B707A04970B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionSystemUsingEvents", "TransactionSystemUsingEvents\TransactionSystemUsingEvents.csproj", "{2779F65B-AFF6-43D9-A12B-E1D8C0FA810A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionSystemUsingEvents_Test", "TransactionSystemUsingEvents_Test\TransactionSystemUsingEvents_Test.csproj", "{3B6A8F14-E08A-44F8-87F0-8A15CD625747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionSystemTheSimplestPossible", "TransactionSystemTheSimplestPossible\TransactionSystemTheSimplestPossible.csproj", "{C6E680CF-A74D-4D17-94E5-B1E88696F436}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionSystemTheSimplestPossible_Test", "TransactionSystemTheSimplestPossible_Test\TransactionSystemTheSimplestPossible_Test.csproj", "{C135F206-8EE6-46CB-B247-53C11F8225EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{811940D1-3318-4392-B532-F6F6D0BFDAC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{811940D1-3318-4392-B532-F6F6D0BFDAC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{811940D1-3318-4392-B532-F6F6D0BFDAC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{811940D1-3318-4392-B532-F6F6D0BFDAC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74C0BA70-0800-4DFA-8B7B-B4AB4BCEE7C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C0BA70-0800-4DFA-8B7B-B4AB4BCEE7C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C0BA70-0800-4DFA-8B7B-B4AB4BCEE7C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C0BA70-0800-4DFA-8B7B-B4AB4BCEE7C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EEB5EE6-FB70-4FC8-B168-F2B9F05C22EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EEB5EE6-FB70-4FC8-B168-F2B9F05C22EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EEB5EE6-FB70-4FC8-B168-F2B9F05C22EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EEB5EE6-FB70-4FC8-B168-F2B9F05C22EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA276FA2-6C8D-42E8-BEE4-375613D7BE99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA276FA2-6C8D-42E8-BEE4-375613D7BE99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA276FA2-6C8D-42E8-BEE4-375613D7BE99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA276FA2-6C8D-42E8-BEE4-375613D7BE99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73672830-0BEA-42DD-BB55-DB4094DDA279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73672830-0BEA-42DD-BB55-DB4094DDA279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73672830-0BEA-42DD-BB55-DB4094DDA279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73672830-0BEA-42DD-BB55-DB4094DDA279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{883C9DBA-5AA1-4AF5-A468-4B707A04970B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{883C9DBA-5AA1-4AF5-A468-4B707A04970B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{883C9DBA-5AA1-4AF5-A468-4B707A04970B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{883C9DBA-5AA1-4AF5-A468-4B707A04970B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2779F65B-AFF6-43D9-A12B-E1D8C0FA810A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2779F65B-AFF6-43D9-A12B-E1D8C0FA810A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2779F65B-AFF6-43D9-A12B-E1D8C0FA810A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2779F65B-AFF6-43D9-A12B-E1D8C0FA810A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B6A8F14-E08A-44F8-87F0-8A15CD625747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B6A8F14-E08A-44F8-87F0-8A15CD625747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B6A8F14-E08A-44F8-87F0-8A15CD625747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B6A8F14-E08A-44F8-87F0-8A15CD625747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6E680CF-A74D-4D17-94E5-B1E88696F436}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6E680CF-A74D-4D17-94E5-B1E88696F436}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6E680CF-A74D-4D17-94E5-B1E88696F436}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6E680CF-A74D-4D17-94E5-B1E88696F436}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C135F206-8EE6-46CB-B247-53C11F8225EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C135F206-8EE6-46CB-B247-53C11F8225EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C135F206-8EE6-46CB-B247-53C11F8225EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C135F206-8EE6-46CB-B247-53C11F8225EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0020BF9-3696-4E35-BC7C-A56C124FAA35}
+	EndGlobalSection
+EndGlobal
